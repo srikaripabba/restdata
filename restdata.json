@@ -231,151 +231,151 @@
           "description": "Flaky puff filled with paneer"
         }
       ]
-      {
-  "id": "109",
-  "name": "Mehfil",
-  "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500",
-  "cuisines": ["Biryani", "Indian"],
-  "rating": 4.4,
-  "costForTwo": 400,
-  "deliveryTime": 35,
-  "menu": [
-    {
-      "id": "m1",
-      "name": "Chicken Biryani",
-      "price": 279,
-      "description": "Flavorful Hyderabadi chicken biryani"
     },
     {
-      "id": "m2",
-      "name": "Mutton Biryani",
-      "price": 379,
-      "description": "Tender mutton cooked with aromatic rice"
+      "id": "109",
+      "name": "Mehfil",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500",
+      "cuisines": ["Biryani", "Indian"],
+      "rating": 4.4,
+      "costForTwo": 400,
+      "deliveryTime": 35,
+      "menu": [
+        {
+          "id": "m1",
+          "name": "Chicken Biryani",
+          "price": 279,
+          "description": "Flavorful Hyderabadi chicken biryani"
+        },
+        {
+          "id": "m2",
+          "name": "Mutton Biryani",
+          "price": 379,
+          "description": "Tender mutton cooked with aromatic rice"
+        },
+        {
+          "id": "m3",
+          "name": "Chicken 65",
+          "price": 219,
+          "description": "Crispy spicy chicken pieces"
+        }
+      ]
     },
     {
-      "id": "m3",
-      "name": "Chicken 65",
-      "price": 219,
-      "description": "Crispy spicy chicken pieces"
-    }
-  ]
-},
-{
-  "id": "110",
-  "name": "Cafe Coffee Day",
-  "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500",
-  "cuisines": ["Cafe", "Beverages"],
-  "rating": 4.2,
-  "costForTwo": 350,
-  "deliveryTime": 25,
-  "menu": [
-    {
-      "id": "ccd1",
-      "name": "Cappuccino",
-      "price": 149,
-      "description": "Rich and creamy cappuccino"
+      "id": "110",
+      "name": "Cafe Coffee Day",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500",
+      "cuisines": ["Cafe", "Beverages"],
+      "rating": 4.2,
+      "costForTwo": 350,
+      "deliveryTime": 25,
+      "menu": [
+        {
+          "id": "ccd1",
+          "name": "Cappuccino",
+          "price": 149,
+          "description": "Rich and creamy cappuccino"
+        },
+        {
+          "id": "ccd2",
+          "name": "Cold Coffee",
+          "price": 179,
+          "description": "Chilled creamy cold coffee"
+        },
+        {
+          "id": "ccd3",
+          "name": "Chocolate Brownie",
+          "price": 129,
+          "description": "Soft chocolate brownie"
+        }
+      ]
     },
     {
-      "id": "ccd2",
-      "name": "Cold Coffee",
-      "price": 179,
-      "description": "Chilled creamy cold coffee"
+      "id": "111",
+      "name": "Wow! Momo",
+      "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500",
+      "cuisines": ["Momos", "Tibetan"],
+      "rating": 4.3,
+      "costForTwo": 300,
+      "deliveryTime": 25,
+      "menu": [
+        {
+          "id": "wm1",
+          "name": "Steamed Chicken Momos",
+          "price": 179,
+          "description": "Juicy chicken momos served with spicy chutney"
+        },
+        {
+          "id": "wm2",
+          "name": "Veg Momos",
+          "price": 149,
+          "description": "Steamed momos filled with fresh vegetables"
+        },
+        {
+          "id": "wm3",
+          "name": "Fried Momos",
+          "price": 199,
+          "description": "Crispy fried momos with spicy sauce"
+        }
+      ]
     },
     {
-      "id": "ccd3",
-      "name": "Chocolate Brownie",
-      "price": 129,
-      "description": "Soft chocolate brownie"
-    }
-  ]
-},
-{
-  "id": "111",
-  "name": "Wow! Momo",
-  "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500",
-  "cuisines": ["Momos", "Tibetan"],
-  "rating": 4.3,
-  "costForTwo": 300,
-  "deliveryTime": 25,
-  "menu": [
-    {
-      "id": "wm1",
-      "name": "Steamed Chicken Momos",
-      "price": 179,
-      "description": "Juicy chicken momos served with spicy chutney"
+      "id": "112",
+      "name": "Behrouz Biryani",
+      "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500",
+      "cuisines": ["Biryani", "Mughlai"],
+      "rating": 4.5,
+      "costForTwo": 550,
+      "deliveryTime": 40,
+      "menu": [
+        {
+          "id": "bb1",
+          "name": "Royal Chicken Biryani",
+          "price": 349,
+          "description": "Aromatic chicken biryani with rich spices"
+        },
+        {
+          "id": "bb2",
+          "name": "Mutton Biryani",
+          "price": 449,
+          "description": "Slow-cooked mutton with fragrant basmati rice"
+        },
+        {
+          "id": "bb3",
+          "name": "Paneer Biryani",
+          "price": 299,
+          "description": "Flavorful vegetarian biryani with paneer"
+        }
+      ]
     },
     {
-      "id": "wm2",
-      "name": "Veg Momos",
-      "price": 149,
-      "description": "Steamed momos filled with fresh vegetables"
-    },
-    {
-      "id": "wm3",
-      "name": "Fried Momos",
-      "price": 199,
-      "description": "Crispy fried momos with spicy sauce"
-    }
-  ]
-},
-{
-  "id": "112",
-  "name": "Behrouz Biryani",
-  "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500",
-  "cuisines": ["Biryani", "Mughlai"],
-  "rating": 4.5,
-  "costForTwo": 550,
-  "deliveryTime": 40,
-  "menu": [
-    {
-      "id": "bb1",
-      "name": "Royal Chicken Biryani",
-      "price": 349,
-      "description": "Aromatic chicken biryani with rich spices"
-    },
-    {
-      "id": "bb2",
-      "name": "Mutton Biryani",
-      "price": 449,
-      "description": "Slow-cooked mutton with fragrant basmati rice"
-    },
-    {
-      "id": "bb3",
-      "name": "Paneer Biryani",
-      "price": 299,
-      "description": "Flavorful vegetarian biryani with paneer"
-    }
-  ]
-},
-{
-  "id": "113",
-  "name": "Cream Stone",
-  "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500",
-  "cuisines": ["Ice Cream", "Desserts"],
-  "rating": 4.6,
-  "costForTwo": 300,
-  "deliveryTime": 20,
-  "menu": [
-    {
-      "id": "cs1",
-      "name": "Chocolate Ice Cream",
-      "price": 149,
-      "description": "Rich creamy chocolate ice cream"
-    },
-    {
-      "id": "cs2",
-      "name": "Brownie Sundae",
-      "price": 199,
-      "description": "Chocolate brownie topped with ice cream"
-    },
-    {
-      "id": "cs3",
-      "name": "Fruit Cream",
-      "price": 179,
-      "description": "Fresh fruits with creamy ice cream"
-    }
-  ]
-}
+      "id": "113",
+      "name": "Cream Stone",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500",
+      "cuisines": ["Ice Cream", "Desserts"],
+      "rating": 4.6,
+      "costForTwo": 300,
+      "deliveryTime": 20,
+      "menu": [
+        {
+          "id": "cs1",
+          "name": "Chocolate Ice Cream",
+          "price": 149,
+          "description": "Rich creamy chocolate ice cream"
+        },
+        {
+          "id": "cs2",
+          "name": "Brownie Sundae",
+          "price": 199,
+          "description": "Chocolate brownie topped with ice cream"
+        },
+        {
+          "id": "cs3",
+          "name": "Fruit Cream",
+          "price": 179,
+          "description": "Fresh fruits with creamy ice cream"
+        }
+      ]
     }
   ]
 }
