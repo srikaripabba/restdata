@@ -8,6 +8,7 @@
       "rating": 4.3,
       "costForTwo": 350,
       "deliveryTime": 30,
+      "promoted": true,
       "menu": [
         {
           "id": "b1",
@@ -37,6 +38,7 @@
       "rating": 4.6,
       "costForTwo": 450,
       "deliveryTime": 35,
+      "promoted": true,
       "menu": [
         {
           "id": "p1",
@@ -66,6 +68,7 @@
       "rating": 4.2,
       "costForTwo": 500,
       "deliveryTime": 25,
+      "promoted": false,
       "menu": [
         {
           "id": "ph1",
@@ -95,6 +98,7 @@
       "rating": 4.1,
       "costForTwo": 400,
       "deliveryTime": 20,
+      "promoted": false,
       "menu": [
         {
           "id": "s1",
@@ -124,6 +128,7 @@
       "rating": 4.4,
       "costForTwo": 500,
       "deliveryTime": 30,
+      "promoted": true,
       "menu": [
         {
           "id": "k1",
@@ -153,6 +158,7 @@
       "rating": 4.5,
       "costForTwo": 450,
       "deliveryTime": 25,
+      "promoted": true,
       "menu": [
         {
           "id": "d1",
@@ -182,6 +188,7 @@
       "rating": 4.7,
       "costForTwo": 500,
       "deliveryTime": 40,
+      "promoted": false,
       "menu": [
         {
           "id": "bw1",
@@ -211,6 +218,7 @@
       "rating": 4.5,
       "costForTwo": 250,
       "deliveryTime": 20,
+      "promoted": true,
       "menu": [
         {
           "id": "c1",
@@ -240,6 +248,7 @@
       "rating": 4.4,
       "costForTwo": 400,
       "deliveryTime": 35,
+      "promoted": false,
       "menu": [
         {
           "id": "m1",
@@ -269,6 +278,7 @@
       "rating": 4.2,
       "costForTwo": 350,
       "deliveryTime": 25,
+      "promoted": false,
       "menu": [
         {
           "id": "ccd1",
@@ -298,6 +308,7 @@
       "rating": 4.3,
       "costForTwo": 300,
       "deliveryTime": 25,
+      "promoted": true,
       "menu": [
         {
           "id": "wm1",
@@ -327,6 +338,7 @@
       "rating": 4.5,
       "costForTwo": 550,
       "deliveryTime": 40,
+      "promoted": false,
       "menu": [
         {
           "id": "bb1",
@@ -356,6 +368,7 @@
       "rating": 4.6,
       "costForTwo": 300,
       "deliveryTime": 20,
+      "promoted": true,
       "menu": [
         {
           "id": "cs1",
