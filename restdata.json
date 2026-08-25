@@ -4,391 +4,2446 @@
       "id": "101",
       "name": "Burger King",
       "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500",
-      "cuisines": ["Burger", "Fast Food"],
+      "cuisines": [
+        "Burger",
+        "Fast Food"
+      ],
       "rating": 4.3,
       "costForTwo": 350,
       "deliveryTime": 30,
       "promoted": true,
-      "menu": [
-        {
-          "id": "b1",
-          "name": "Whopper Burger",
-          "price": 199,
-          "description": "Classic Burger King Whopper"
-        },
-        {
-          "id": "b2",
-          "name": "Chicken Burger",
-          "price": 179,
-          "description": "Crispy chicken burger"
-        },
-        {
-          "id": "b3",
-          "name": "French Fries",
-          "price": 99,
-          "description": "Crispy golden fries"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "101-r1",
+            "name": "Whopper Burger",
+            "price": 199,
+            "description": "Classic burger with fresh vegetables",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+          },
+          {
+            "id": "101-r2",
+            "name": "Chicken Burger",
+            "price": 179,
+            "description": "Crispy chicken burger",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "101-r3",
+            "name": "French Fries",
+            "price": 99,
+            "description": "Crispy golden fries",
+            "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500"
+          },
+          {
+            "id": "101-r4",
+            "name": "Veggie Burger",
+            "price": 159,
+            "description": "Fresh vegetarian burger",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "101-n1",
+            "name": "Spicy Crispy Chicken Burger",
+            "price": 219,
+            "description": "Extra crispy chicken with spicy sauce",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "101-n2",
+            "name": "Cheese Loaded Burger",
+            "price": 229,
+            "description": "Juicy burger loaded with cheese",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+          },
+          {
+            "id": "101-n3",
+            "name": "Peri Peri Fries",
+            "price": 129,
+            "description": "Crispy fries with peri peri seasoning",
+            "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500"
+          },
+          {
+            "id": "101-n4",
+            "name": "Chicken Cheese Wrap",
+            "price": 199,
+            "description": "Grilled chicken and cheese wrap",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "101-n5",
+            "name": "Double Patty Burger",
+            "price": 279,
+            "description": "Double patty burger with special sauce",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "101-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "101-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "101-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "101-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "101-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "101-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "101-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "101-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "101-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "101-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "101-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "102",
       "name": "Paradise Biryani",
-      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/FOOD_CATALOG/IMAGES/CMS/2025/8/11/92001c75-40f0-4d57-9e22-ec683e6fc547_fb0b26e6-b78b-49ea-8c10-e3abc7eb7bb7.jpg",
-      "cuisines": ["Biryani", "Indian"],
+      "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500",
+      "cuisines": [
+        "Biryani",
+        "Indian"
+      ],
       "rating": 4.6,
       "costForTwo": 450,
       "deliveryTime": 35,
       "promoted": true,
-      "menu": [
-        {
-          "id": "p1",
-          "name": "Chicken Biryani",
-          "price": 299,
-          "description": "Hyderabadi chicken dum biryani"
-        },
-        {
-          "id": "p2",
-          "name": "Mutton Biryani",
-          "price": 399,
-          "description": "Traditional mutton dum biryani"
-        },
-        {
-          "id": "p3",
-          "name": "Chicken 65",
-          "price": 229,
-          "description": "Spicy crispy chicken"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "102-r1",
+            "name": "Chicken Biryani",
+            "price": 299,
+            "description": "Hyderabadi chicken dum biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "102-r2",
+            "name": "Mutton Biryani",
+            "price": 399,
+            "description": "Traditional mutton dum biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "102-r3",
+            "name": "Chicken 65",
+            "price": 229,
+            "description": "Spicy crispy chicken",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "102-r4",
+            "name": "Paneer Biryani",
+            "price": 279,
+            "description": "Aromatic vegetarian biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "102-n1",
+            "name": "Special Chicken Biryani",
+            "price": 329,
+            "description": "Chef special dum biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "102-n2",
+            "name": "Mutton Fry Biryani",
+            "price": 429,
+            "description": "Rich mutton fry biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "102-n3",
+            "name": "Tandoori Chicken",
+            "price": 299,
+            "description": "Smoky tandoori chicken",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "102-n4",
+            "name": "Paneer Tikka",
+            "price": 249,
+            "description": "Grilled paneer with spices",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "102-n5",
+            "name": "Family Biryani Pack",
+            "price": 699,
+            "description": "Large family serving biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "102-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "102-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "102-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "102-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "102-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "102-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "102-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "102-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "102-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "102-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "102-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "103",
       "name": "Pizza Hut",
       "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500",
-      "cuisines": ["Pizza", "Italian"],
+      "cuisines": [
+        "Pizza",
+        "Italian"
+      ],
       "rating": 4.2,
       "costForTwo": 500,
       "deliveryTime": 25,
       "promoted": false,
-      "menu": [
-        {
-          "id": "ph1",
-          "name": "Margherita Pizza",
-          "price": 249,
-          "description": "Classic cheese and tomato pizza"
-        },
-        {
-          "id": "ph2",
-          "name": "Farmhouse Pizza",
-          "price": 349,
-          "description": "Loaded with fresh vegetables"
-        },
-        {
-          "id": "ph3",
-          "name": "Garlic Bread",
-          "price": 149,
-          "description": "Freshly baked garlic bread"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "103-r1",
+            "name": "Margherita Pizza",
+            "price": 249,
+            "description": "Classic cheese and tomato pizza",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "103-r2",
+            "name": "Farmhouse Pizza",
+            "price": 349,
+            "description": "Loaded with fresh vegetables",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "103-r3",
+            "name": "Veggie Supreme",
+            "price": 399,
+            "description": "Loaded vegetable pizza",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "103-r4",
+            "name": "Garlic Bread",
+            "price": 149,
+            "description": "Freshly baked garlic bread",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "103-n1",
+            "name": "Cheese Burst Pizza",
+            "price": 399,
+            "description": "Pizza with extra cheese filling",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "103-n2",
+            "name": "Spicy Chicken Pizza",
+            "price": 449,
+            "description": "Chicken pizza with spicy toppings",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "103-n3",
+            "name": "Paneer Makhani Pizza",
+            "price": 429,
+            "description": "Indian-style paneer pizza",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "103-n4",
+            "name": "BBQ Chicken Pizza",
+            "price": 459,
+            "description": "Smoky BBQ chicken pizza",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "103-n5",
+            "name": "Chocolate Pizza",
+            "price": 299,
+            "description": "Sweet chocolate dessert pizza",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "103-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "103-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "103-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "103-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "103-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "103-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "103-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "103-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "103-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "103-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "103-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "104",
       "name": "Subway",
       "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500",
-      "cuisines": ["Sandwich", "Healthy Food"],
+      "cuisines": [
+        "Sandwich",
+        "Healthy Food"
+      ],
       "rating": 4.1,
       "costForTwo": 400,
       "deliveryTime": 20,
       "promoted": false,
-      "menu": [
-        {
-          "id": "s1",
-          "name": "Veggie Delight Sub",
-          "price": 199,
-          "description": "Fresh vegetables with sauces"
-        },
-        {
-          "id": "s2",
-          "name": "Chicken Teriyaki Sub",
-          "price": 299,
-          "description": "Chicken with teriyaki sauce"
-        },
-        {
-          "id": "s3",
-          "name": "Cheese Toast",
-          "price": 129,
-          "description": "Toasted bread with melted cheese"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "104-r1",
+            "name": "Veggie Delight Sub",
+            "price": 199,
+            "description": "Fresh vegetables with sauces",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "104-r2",
+            "name": "Chicken Teriyaki Sub",
+            "price": 299,
+            "description": "Chicken with teriyaki sauce",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "104-r3",
+            "name": "Paneer Tikka Sub",
+            "price": 249,
+            "description": "Paneer with fresh vegetables",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "104-r4",
+            "name": "Cheese Toast",
+            "price": 129,
+            "description": "Toasted bread with melted cheese",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "104-n1",
+            "name": "Peri Peri Chicken Sub",
+            "price": 319,
+            "description": "Spicy chicken with peri peri sauce",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "104-n2",
+            "name": "Mexican Green Sub",
+            "price": 229,
+            "description": "Fresh vegetables with Mexican sauce",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "104-n3",
+            "name": "Chicken Ham Sub",
+            "price": 329,
+            "description": "Tender chicken with fresh salad",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "104-n4",
+            "name": "Tandoori Paneer Sub",
+            "price": 269,
+            "description": "Tandoori paneer with sauces",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "104-n5",
+            "name": "Loaded Cheese Sub",
+            "price": 289,
+            "description": "Extra cheese and fresh vegetables",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "104-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "104-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "104-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "104-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "104-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "104-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "104-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "104-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "104-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "104-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "104-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "105",
       "name": "KFC",
       "image": "https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?w=500",
-      "cuisines": ["Chicken", "Fast Food"],
+      "cuisines": [
+        "Chicken",
+        "Fast Food"
+      ],
       "rating": 4.4,
       "costForTwo": 500,
       "deliveryTime": 30,
       "promoted": true,
-      "menu": [
-        {
-          "id": "k1",
-          "name": "Chicken Bucket",
-          "price": 499,
-          "description": "Crispy fried chicken bucket"
-        },
-        {
-          "id": "k2",
-          "name": "Chicken Burger",
-          "price": 249,
-          "description": "Crispy chicken burger"
-        },
-        {
-          "id": "k3",
-          "name": "Chicken Popcorn",
-          "price": 199,
-          "description": "Crispy bite-sized chicken"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "105-r1",
+            "name": "Chicken Bucket",
+            "price": 499,
+            "description": "Crispy fried chicken bucket",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "105-r2",
+            "name": "Chicken Burger",
+            "price": 249,
+            "description": "Crispy chicken burger",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+          },
+          {
+            "id": "105-r3",
+            "name": "Chicken Popcorn",
+            "price": 199,
+            "description": "Crispy bite-sized chicken",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "105-r4",
+            "name": "Hot Wings",
+            "price": 229,
+            "description": "Spicy crispy chicken wings",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "105-n1",
+            "name": "Spicy Chicken Bucket",
+            "price": 549,
+            "description": "Bucket with spicy crispy chicken",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "105-n2",
+            "name": "Zinger Cheese Burger",
+            "price": 299,
+            "description": "Zinger burger with cheese",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500"
+          },
+          {
+            "id": "105-n3",
+            "name": "Chicken Strips",
+            "price": 249,
+            "description": "Tender crispy chicken strips",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "105-n4",
+            "name": "Peri Peri Chicken",
+            "price": 329,
+            "description": "Crispy chicken with peri peri seasoning",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "105-n5",
+            "name": "Loaded Chicken Box",
+            "price": 449,
+            "description": "Chicken, fries and sides",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "105-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "105-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "105-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "105-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "105-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "105-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "105-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "105-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "105-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "105-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "105-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "106",
       "name": "Domino's Pizza",
       "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=500",
-      "cuisines": ["Pizza", "Italian"],
+      "cuisines": [
+        "Pizza",
+        "Italian"
+      ],
       "rating": 4.5,
       "costForTwo": 450,
       "deliveryTime": 25,
       "promoted": true,
-      "menu": [
-        {
-          "id": "d1",
-          "name": "Farmhouse Pizza",
-          "price": 349,
-          "description": "Pizza loaded with fresh vegetables"
-        },
-        {
-          "id": "d2",
-          "name": "Chicken Dominator",
-          "price": 499,
-          "description": "Loaded chicken pizza"
-        },
-        {
-          "id": "d3",
-          "name": "Garlic Breadsticks",
-          "price": 149,
-          "description": "Soft garlic breadsticks"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "106-r1",
+            "name": "Farmhouse Pizza",
+            "price": 349,
+            "description": "Pizza loaded with fresh vegetables",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "106-r2",
+            "name": "Chicken Dominator",
+            "price": 499,
+            "description": "Loaded chicken pizza",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "106-r3",
+            "name": "Peppy Paneer Pizza",
+            "price": 399,
+            "description": "Paneer and spicy toppings",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "106-r4",
+            "name": "Garlic Breadsticks",
+            "price": 149,
+            "description": "Soft garlic breadsticks",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "106-n1",
+            "name": "Cheese Burst Farmhouse",
+            "price": 429,
+            "description": "Farmhouse pizza with cheese burst",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "106-n2",
+            "name": "Chicken Tikka Pizza",
+            "price": 469,
+            "description": "Chicken tikka topped pizza",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "106-n3",
+            "name": "Fiery Chicken Pizza",
+            "price": 489,
+            "description": "Spicy chicken pizza",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "106-n4",
+            "name": "Mexican Green Wave",
+            "price": 379,
+            "description": "Mexican-style vegetable pizza",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500"
+          },
+          {
+            "id": "106-n5",
+            "name": "Brownie",
+            "price": 129,
+            "description": "Warm chocolate brownie",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "106-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "106-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "106-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "106-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "106-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "106-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "106-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "106-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "106-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "106-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "106-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "107",
       "name": "Bawarchi",
       "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500",
-      "cuisines": ["Biryani", "North Indian"],
+      "cuisines": [
+        "Biryani",
+        "North Indian"
+      ],
       "rating": 4.7,
       "costForTwo": 500,
       "deliveryTime": 40,
       "promoted": false,
-      "menu": [
-        {
-          "id": "bw1",
-          "name": "Special Chicken Biryani",
-          "price": 329,
-          "description": "Special Hyderabadi chicken biryani"
-        },
-        {
-          "id": "bw2",
-          "name": "Mutton Biryani",
-          "price": 429,
-          "description": "Rich and flavorful mutton biryani"
-        },
-        {
-          "id": "bw3",
-          "name": "Paneer Tikka",
-          "price": 249,
-          "description": "Grilled paneer with spices"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "107-r1",
+            "name": "Special Chicken Biryani",
+            "price": 329,
+            "description": "Special Hyderabadi chicken biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "107-r2",
+            "name": "Mutton Biryani",
+            "price": 429,
+            "description": "Rich flavorful mutton biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "107-r3",
+            "name": "Paneer Tikka",
+            "price": 249,
+            "description": "Grilled paneer with spices",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "107-r4",
+            "name": "Chicken 65",
+            "price": 229,
+            "description": "Crispy spicy chicken pieces",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "107-n1",
+            "name": "Bawarchi Special Biryani",
+            "price": 379,
+            "description": "Signature chicken dum biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "107-n2",
+            "name": "Mutton Fry",
+            "price": 399,
+            "description": "Spicy fried mutton",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "107-n3",
+            "name": "Chicken Tikka",
+            "price": 289,
+            "description": "Chargrilled chicken tikka",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "107-n4",
+            "name": "Paneer Butter Masala",
+            "price": 269,
+            "description": "Paneer cooked in creamy gravy",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "107-n5",
+            "name": "Family Chicken Biryani",
+            "price": 749,
+            "description": "Large family pack",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "107-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "107-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "107-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "107-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "107-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "107-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "107-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "107-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "107-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "107-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "107-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "108",
       "name": "Chai Point",
       "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500",
-      "cuisines": ["Tea", "Snacks"],
+      "cuisines": [
+        "Tea",
+        "Snacks"
+      ],
       "rating": 4.5,
       "costForTwo": 250,
       "deliveryTime": 20,
       "promoted": true,
-      "menu": [
-        {
-          "id": "c1",
-          "name": "Masala Chai",
-          "price": 80,
-          "description": "Traditional Indian masala tea"
-        },
-        {
-          "id": "c2",
-          "name": "Samosa",
-          "price": 50,
-          "description": "Crispy potato-filled samosa"
-        },
-        {
-          "id": "c3",
-          "name": "Paneer Puff",
-          "price": 90,
-          "description": "Flaky puff filled with paneer"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "108-r1",
+            "name": "Masala Chai",
+            "price": 80,
+            "description": "Traditional Indian masala tea",
+            "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500"
+          },
+          {
+            "id": "108-r2",
+            "name": "Samosa",
+            "price": 50,
+            "description": "Crispy potato-filled samosa",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "108-r3",
+            "name": "Paneer Puff",
+            "price": 90,
+            "description": "Flaky puff filled with paneer",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "108-r4",
+            "name": "Elaichi Chai",
+            "price": 85,
+            "description": "Cardamom flavored tea",
+            "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "108-n1",
+            "name": "Kulhad Chai",
+            "price": 99,
+            "description": "Traditional tea served in kulhad",
+            "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500"
+          },
+          {
+            "id": "108-n2",
+            "name": "Cheese Samosa",
+            "price": 79,
+            "description": "Crispy samosa with cheese",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "108-n3",
+            "name": "Aloo Paratha",
+            "price": 129,
+            "description": "Indian flatbread with potato filling",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "108-n4",
+            "name": "Masala Bun",
+            "price": 89,
+            "description": "Soft bun with spicy filling",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "108-n5",
+            "name": "Chocolate Chai",
+            "price": 109,
+            "description": "Chocolate flavored tea",
+            "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "108-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "108-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "108-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "108-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "108-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "108-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "108-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "108-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "108-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "108-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "108-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "109",
       "name": "Mehfil",
       "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500",
-      "cuisines": ["Biryani", "Indian"],
+      "cuisines": [
+        "Biryani",
+        "Indian"
+      ],
       "rating": 4.4,
       "costForTwo": 400,
       "deliveryTime": 35,
       "promoted": false,
-      "menu": [
-        {
-          "id": "m1",
-          "name": "Chicken Biryani",
-          "price": 279,
-          "description": "Flavorful Hyderabadi chicken biryani"
-        },
-        {
-          "id": "m2",
-          "name": "Mutton Biryani",
-          "price": 379,
-          "description": "Tender mutton cooked with aromatic rice"
-        },
-        {
-          "id": "m3",
-          "name": "Chicken 65",
-          "price": 219,
-          "description": "Crispy spicy chicken pieces"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "109-r1",
+            "name": "Chicken Biryani",
+            "price": 279,
+            "description": "Flavorful Hyderabadi chicken biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "109-r2",
+            "name": "Mutton Biryani",
+            "price": 379,
+            "description": "Tender mutton with aromatic rice",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "109-r3",
+            "name": "Chicken 65",
+            "price": 219,
+            "description": "Crispy spicy chicken pieces",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "109-r4",
+            "name": "Paneer Tikka",
+            "price": 239,
+            "description": "Grilled paneer with spices",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "109-n1",
+            "name": "Mehfil Special Biryani",
+            "price": 329,
+            "description": "Special chef-style biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "109-n2",
+            "name": "Mutton Fry",
+            "price": 389,
+            "description": "Spicy tender mutton fry",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "109-n3",
+            "name": "Chicken Tikka",
+            "price": 269,
+            "description": "Chargrilled chicken tikka",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "109-n4",
+            "name": "Butter Chicken",
+            "price": 299,
+            "description": "Creamy butter chicken curry",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "109-n5",
+            "name": "Family Biryani",
+            "price": 699,
+            "description": "Large family portion",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "109-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "109-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "109-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "109-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "109-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "109-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "109-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "109-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "109-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "109-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "109-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "110",
       "name": "Cafe Coffee Day",
       "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500",
-      "cuisines": ["Cafe", "Beverages"],
+      "cuisines": [
+        "Cafe",
+        "Beverages"
+      ],
       "rating": 4.2,
       "costForTwo": 350,
       "deliveryTime": 25,
       "promoted": false,
-      "menu": [
-        {
-          "id": "ccd1",
-          "name": "Cappuccino",
-          "price": 149,
-          "description": "Rich and creamy cappuccino"
-        },
-        {
-          "id": "ccd2",
-          "name": "Cold Coffee",
-          "price": 179,
-          "description": "Chilled creamy cold coffee"
-        },
-        {
-          "id": "ccd3",
-          "name": "Chocolate Brownie",
-          "price": 129,
-          "description": "Soft chocolate brownie"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "110-r1",
+            "name": "Cappuccino",
+            "price": 149,
+            "description": "Rich and creamy cappuccino",
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500"
+          },
+          {
+            "id": "110-r2",
+            "name": "Cold Coffee",
+            "price": 179,
+            "description": "Chilled creamy cold coffee",
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500"
+          },
+          {
+            "id": "110-r3",
+            "name": "Chocolate Brownie",
+            "price": 129,
+            "description": "Soft chocolate brownie",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "110-r4",
+            "name": "Cafe Latte",
+            "price": 159,
+            "description": "Smooth creamy latte",
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "110-n1",
+            "name": "Mocha Frappe",
+            "price": 199,
+            "description": "Cold coffee with chocolate",
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500"
+          },
+          {
+            "id": "110-n2",
+            "name": "Caramel Cold Coffee",
+            "price": 209,
+            "description": "Cold coffee with caramel",
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500"
+          },
+          {
+            "id": "110-n3",
+            "name": "Hazelnut Latte",
+            "price": 189,
+            "description": "Creamy hazelnut flavored latte",
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500"
+          },
+          {
+            "id": "110-n4",
+            "name": "Chocolate Muffin",
+            "price": 139,
+            "description": "Soft chocolate muffin",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "110-n5",
+            "name": "Cheese Sandwich",
+            "price": 179,
+            "description": "Toasted cheese sandwich",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "110-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "110-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "110-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "110-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "110-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "110-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "110-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "110-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "110-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "110-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "110-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "111",
       "name": "Wow! Momo",
       "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500",
-      "cuisines": ["Momos", "Tibetan"],
+      "cuisines": [
+        "Momos",
+        "Tibetan"
+      ],
       "rating": 4.3,
       "costForTwo": 300,
       "deliveryTime": 25,
       "promoted": true,
-      "menu": [
-        {
-          "id": "wm1",
-          "name": "Steamed Chicken Momos",
-          "price": 179,
-          "description": "Juicy chicken momos served with spicy chutney"
-        },
-        {
-          "id": "wm2",
-          "name": "Veg Momos",
-          "price": 149,
-          "description": "Steamed momos filled with fresh vegetables"
-        },
-        {
-          "id": "wm3",
-          "name": "Fried Momos",
-          "price": 199,
-          "description": "Crispy fried momos with spicy sauce"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "111-r1",
+            "name": "Steamed Chicken Momos",
+            "price": 179,
+            "description": "Juicy chicken momos with chutney",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          },
+          {
+            "id": "111-r2",
+            "name": "Veg Momos",
+            "price": 149,
+            "description": "Steamed momos with vegetables",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          },
+          {
+            "id": "111-r3",
+            "name": "Fried Momos",
+            "price": 199,
+            "description": "Crispy fried momos",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          },
+          {
+            "id": "111-r4",
+            "name": "Tandoori Momos",
+            "price": 219,
+            "description": "Smoky tandoori momos",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "111-n1",
+            "name": "Peri Peri Chicken Momos",
+            "price": 229,
+            "description": "Chicken momos with peri peri sauce",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          },
+          {
+            "id": "111-n2",
+            "name": "Cheese Corn Momos",
+            "price": 199,
+            "description": "Momos filled with cheese and corn",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          },
+          {
+            "id": "111-n3",
+            "name": "Schezwan Momos",
+            "price": 209,
+            "description": "Spicy Schezwan momos",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          },
+          {
+            "id": "111-n4",
+            "name": "Afghani Momos",
+            "price": 239,
+            "description": "Creamy Afghani-style momos",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          },
+          {
+            "id": "111-n5",
+            "name": "Momo Platter",
+            "price": 349,
+            "description": "Assorted momo platter",
+            "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "111-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "111-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "111-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "111-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "111-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "111-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "111-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "111-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "111-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "111-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "111-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "112",
       "name": "Behrouz Biryani",
       "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500",
-      "cuisines": ["Biryani", "Mughlai"],
+      "cuisines": [
+        "Biryani",
+        "Mughlai"
+      ],
       "rating": 4.5,
       "costForTwo": 550,
       "deliveryTime": 40,
       "promoted": false,
-      "menu": [
-        {
-          "id": "bb1",
-          "name": "Royal Chicken Biryani",
-          "price": 349,
-          "description": "Aromatic chicken biryani with rich spices"
-        },
-        {
-          "id": "bb2",
-          "name": "Mutton Biryani",
-          "price": 449,
-          "description": "Slow-cooked mutton with fragrant basmati rice"
-        },
-        {
-          "id": "bb3",
-          "name": "Paneer Biryani",
-          "price": 299,
-          "description": "Flavorful vegetarian biryani with paneer"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "112-r1",
+            "name": "Royal Chicken Biryani",
+            "price": 349,
+            "description": "Aromatic chicken biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "112-r2",
+            "name": "Mutton Biryani",
+            "price": 449,
+            "description": "Slow-cooked mutton with basmati rice",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "112-r3",
+            "name": "Paneer Biryani",
+            "price": 299,
+            "description": "Vegetarian biryani with paneer",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "112-r4",
+            "name": "Chicken Kebab",
+            "price": 329,
+            "description": "Juicy grilled chicken kebabs",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "112-n1",
+            "name": "Royal Family Biryani",
+            "price": 799,
+            "description": "Large royal family biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "112-n2",
+            "name": "Smoked Chicken Biryani",
+            "price": 399,
+            "description": "Smoky chicken biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "112-n3",
+            "name": "Mughlai Mutton Biryani",
+            "price": 479,
+            "description": "Rich Mughlai-style mutton biryani",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "112-n4",
+            "name": "Paneer Kebab",
+            "price": 269,
+            "description": "Grilled paneer kebabs",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "112-n5",
+            "name": "Royal Dessert Box",
+            "price": 249,
+            "description": "Assorted Indian desserts",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "112-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "112-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "112-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "112-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "112-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "112-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "112-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "112-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "112-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "112-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "112-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     },
     {
       "id": "113",
       "name": "Cream Stone",
       "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500",
-      "cuisines": ["Ice Cream", "Desserts"],
+      "cuisines": [
+        "Ice Cream",
+        "Desserts"
+      ],
       "rating": 4.6,
       "costForTwo": 300,
       "deliveryTime": 20,
       "promoted": true,
-      "menu": [
-        {
-          "id": "cs1",
-          "name": "Chocolate Ice Cream",
-          "price": 149,
-          "description": "Rich creamy chocolate ice cream"
-        },
-        {
-          "id": "cs2",
-          "name": "Brownie Sundae",
-          "price": 199,
-          "description": "Chocolate brownie topped with ice cream"
-        },
-        {
-          "id": "cs3",
-          "name": "Fruit Cream",
-          "price": 179,
-          "description": "Fresh fruits with creamy ice cream"
-        }
-      ]
+      "menu": {
+        "recommended": [
+          {
+            "id": "113-r1",
+            "name": "Chocolate Ice Cream",
+            "price": 149,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "113-r2",
+            "name": "Brownie Sundae",
+            "price": 199,
+            "description": "Brownie topped with ice cream",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "113-r3",
+            "name": "Fruit Cream",
+            "price": 179,
+            "description": "Fresh fruits with creamy ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "113-r4",
+            "name": "Vanilla Sundae",
+            "price": 169,
+            "description": "Classic vanilla sundae",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "113-n1",
+            "name": "Nutella Brownie",
+            "price": 229,
+            "description": "Brownie with Nutella and ice cream",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "113-n2",
+            "name": "Mango Mania",
+            "price": 199,
+            "description": "Mango ice cream dessert",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "113-n3",
+            "name": "Oreo Overload",
+            "price": 219,
+            "description": "Oreo cookies with creamy ice cream",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "113-n4",
+            "name": "Pista Delight",
+            "price": 209,
+            "description": "Pistachio ice cream dessert",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "113-n5",
+            "name": "Caramel Crunch",
+            "price": 229,
+            "description": "Caramel ice cream with crunchy toppings",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "113-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "113-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "113-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "113-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "113-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "113-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "113-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "113-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "113-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "113-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "113-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
+    },
+    {
+      "id": "114",
+      "name": "Haldiram's",
+      "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=500",
+      "cuisines": [
+        "Indian",
+        "Snacks"
+      ],
+      "rating": 4.5,
+      "costForTwo": 350,
+      "deliveryTime": 30,
+      "promoted": true,
+      "menu": {
+        "recommended": [
+          {
+            "id": "114-r1",
+            "name": "Chole Bhature",
+            "price": 199,
+            "description": "Fluffy bhature with spicy chole",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "114-r2",
+            "name": "Raj Kachori",
+            "price": 149,
+            "description": "Crispy kachori filled with chaat",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "114-r3",
+            "name": "Paneer Tikka",
+            "price": 229,
+            "description": "Grilled paneer with Indian spices",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "114-r4",
+            "name": "Masala Dosa",
+            "price": 169,
+            "description": "Crispy dosa with potato masala",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "114-n1",
+            "name": "Cheese Dosa",
+            "price": 199,
+            "description": "Crispy dosa with melted cheese",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "114-n2",
+            "name": "Paneer Chaat",
+            "price": 179,
+            "description": "Spicy paneer chaat",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "114-n3",
+            "name": "Kaju Paneer",
+            "price": 269,
+            "description": "Paneer cooked with cashews",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500"
+          },
+          {
+            "id": "114-n4",
+            "name": "Special Thali",
+            "price": 299,
+            "description": "Complete Indian meal platter",
+            "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=500"
+          },
+          {
+            "id": "114-n5",
+            "name": "Gulab Jamun",
+            "price": 99,
+            "description": "Soft sweet dumplings in syrup",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "114-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "114-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "114-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "114-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "114-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "114-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "114-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "114-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "114-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "114-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "114-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
+    },
+    {
+      "id": "115",
+      "name": "Cafe Niloufer",
+      "image": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=500",
+      "cuisines": [
+        "Cafe",
+        "Beverages"
+      ],
+      "rating": 4.7,
+      "costForTwo": 300,
+      "deliveryTime": 20,
+      "promoted": true,
+      "menu": {
+        "recommended": [
+          {
+            "id": "115-r1",
+            "name": "Irani Chai",
+            "price": 90,
+            "description": "Famous creamy Irani tea",
+            "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500"
+          },
+          {
+            "id": "115-r2",
+            "name": "Osmania Biscuit",
+            "price": 70,
+            "description": "Classic buttery Osmania biscuit",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "115-r3",
+            "name": "Chicken Puff",
+            "price": 110,
+            "description": "Flaky puff with chicken filling",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "115-r4",
+            "name": "Malai Bun",
+            "price": 100,
+            "description": "Soft bun topped with creamy malai",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          }
+        ],
+        "newlyAdded": [
+          {
+            "id": "115-n1",
+            "name": "Special Irani Chai",
+            "price": 110,
+            "description": "Rich special Irani tea",
+            "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500"
+          },
+          {
+            "id": "115-n2",
+            "name": "Cream Bun",
+            "price": 120,
+            "description": "Soft bun filled with fresh cream",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "115-n3",
+            "name": "Chicken Sandwich",
+            "price": 199,
+            "description": "Grilled chicken sandwich",
+            "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500"
+          },
+          {
+            "id": "115-n4",
+            "name": "Chocolate Cake",
+            "price": 159,
+            "description": "Soft chocolate cake slice",
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500"
+          },
+          {
+            "id": "115-n5",
+            "name": "Badam Milk",
+            "price": 129,
+            "description": "Chilled almond milk drink",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "drinks": [
+          {
+            "id": "115-d1",
+            "name": "Sweet Lassi",
+            "price": 89,
+            "description": "Creamy chilled sweet lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "115-d2",
+            "name": "Mango Lassi",
+            "price": 109,
+            "description": "Refreshing mango blended lassi",
+            "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=500"
+          },
+          {
+            "id": "115-d3",
+            "name": "Chocolate Shake",
+            "price": 149,
+            "description": "Thick creamy chocolate milkshake",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "115-d4",
+            "name": "Oreo Shake",
+            "price": 179,
+            "description": "Creamy shake blended with Oreo cookies",
+            "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500"
+          },
+          {
+            "id": "115-d5",
+            "name": "Mango Smoothie",
+            "price": 149,
+            "description": "Fresh mango blended smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          },
+          {
+            "id": "115-d6",
+            "name": "Strawberry Smoothie",
+            "price": 159,
+            "description": "Fresh strawberry fruit smoothie",
+            "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=500"
+          }
+        ],
+        "iceCreamAndKulfies": [
+          {
+            "id": "115-i1",
+            "name": "Chocolate Ice Cream",
+            "price": 99,
+            "description": "Rich creamy chocolate ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "115-i2",
+            "name": "Vanilla Ice Cream",
+            "price": 89,
+            "description": "Classic creamy vanilla ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "115-i3",
+            "name": "Mango Ice Cream",
+            "price": 109,
+            "description": "Refreshing mango ice cream",
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"
+          },
+          {
+            "id": "115-i4",
+            "name": "Malai Kulfi",
+            "price": 119,
+            "description": "Traditional creamy Indian kulfi",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          },
+          {
+            "id": "115-i5",
+            "name": "Pista Kulfi",
+            "price": 129,
+            "description": "Creamy kulfi topped with pistachios",
+            "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500"
+          }
+        ]
+      }
     }
   ]
 }
